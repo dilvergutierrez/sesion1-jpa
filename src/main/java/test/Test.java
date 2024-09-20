@@ -78,7 +78,7 @@ public class Test {
 			//manager.flush();
 			Query query = manager.createNamedQuery("User.findAll");
 			//query.setParameter(1, "Bob");
-			//query.setParameter(2, "Sponge");
+			//query.setParameter(2, "estrella");
 			List<User> result = query.getResultList();
 			for (User user : result) {
 				System.out.println(user.getName());
